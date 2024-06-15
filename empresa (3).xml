@@ -1,0 +1,36 @@
+<empresa>
+    <empleado id="1">
+        <nombre>John Doe</nombre>
+        <cargo>Gerente de Proyecto</cargo>
+        <fecha_contratacion>2022-01-15</fecha_contratacion>
+        <contacto>
+            <email>john.doe@example.com</email>
+            <telefono>123-456-7890</telefono>
+        </contacto>
+        <salario>
+            <base>60000</base>
+            <bonificacion tipo="anual">5000</bonificacion>
+            <beneficios>
+                <seguro_medico>1000</seguro_medico>
+                <vacaciones>2000</vacaciones>
+            </beneficios>
+        </salario>
+    </empleado>
+    <empleado id="2">
+        <nombre>Alice Smith</nombre>
+        <cargo>Analista de Datos</cargo>
+        <fecha_contratacion>2023-03-10</fecha_contratacion>
+        <contacto>
+            <email>alice.smith@example.com</email>
+            <telefono>987-654-3210</telefono>
+        </contacto>
+        <salario>
+            <base>55000</base>
+            <bonificacion tipo="anual">4500</bonificacion>
+            <beneficios>
+                <seguro_medico>1200</seguro_medico>
+                <vacaciones>2500</vacaciones>
+            </beneficios>
+        </salario>
+    </empleado>
+</empresa>

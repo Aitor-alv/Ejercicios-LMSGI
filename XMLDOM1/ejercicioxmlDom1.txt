@@ -1,0 +1,20 @@
+En primer lugar, creamos una carpeta en el ordenador.
+2. Desde cmd hacemos lo siguiente: 
+                                                                cd ruta/a/tu/carpeta/practica-xml-dom
+                                                                git init
+Esto crea un repositorio Git local en esa carpeta.
+3. Desde cmd escribimos lo siguiente:
+                                                              git remote add origin  https://github.com/Aitor-alv/Ejercicios-LMSGI.git
+
+4. Buscamos la prevision del tiempo y descargamos el xml del mismo y la guardamos en la carpeta que hemos hecho como repositorio.
+5. Crearemos el script JavaScript para procesar el XML. Crearemos un archivo HTML y uno JavaScript en el repositorio.
+6. Definimos el cuerpo del html.
+7. Definimos el js, con peticiones AJAX
+Usa XMLHttpRequest para cargar el archivo XML (prevision.xml en este caso) desde el servidor local.
+Cuando se completa la carga (readyState == 4 y status == 200), convierte la respuesta en un documento XML (responseXML) y llama a la función mostrarInformacion para procesar y mostrar los datos.
+En mostrarInformacion, accede a elementos específicos del XML usando getElementsByTagName y muestra la información requerida en el elemento con id="info" en index.html.
+
+8. Guardar y subir la practica al repositorio
+git add .
+git commit -m "Agregado HTML y JavaScript para procesar XML de previsión meteorológica"
+git push
